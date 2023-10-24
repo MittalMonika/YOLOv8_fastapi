@@ -29,7 +29,7 @@ Ensure you have all the prerequisites and follow the instructions below to set u
 3. **Accessing the Application**: 
 
    Once the services are up and running, you can access the application at:
-   [Link ffor fstapi webpage](http://127.0.0.1:8080/docs#/default/process_pdf_process_pdf__post)
+   [Link for fastapi webpage](http://127.0.0.1:8080/docs#/default/process_pdf_process_pdf__post)
    
 
 4. **Stopping the Services**: 
@@ -42,13 +42,13 @@ Ensure you have all the prerequisites and follow the instructions below to set u
 ## 🖼️ Images
 The output when toggle to application link would be 
 ```markdown
-![Application webpabe:](Images/api1.png)
+![Application webpabe:](./Images/api1.png)
 ```
 ```markdown
-![Application result webpabe:](Images/ap2.png)
+![Application result webpabe:](./Images/ap2.png)
 ```
 ```markdown
-![Document tagged:](Images/document.png)
+![Document tagged:](./Images/document.png)
 ```
 
 
