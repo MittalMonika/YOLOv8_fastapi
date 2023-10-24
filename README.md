@@ -42,7 +42,7 @@ Ensure you have all the prerequisites and follow the instructions below to set u
 ## 🖼️ Images
 The output when toggle to application link would be 
 ```markdown
-![Application webpabe:](./Images/api1.png)
+![Application webpabe:](https://raw.githubusercontent.com/MittalMonika/YOLOv8_fastapi/blob/main/Images/api1.png)
 ```
 ```markdown
 ![Application result webpabe:](./Images/ap2.png)
