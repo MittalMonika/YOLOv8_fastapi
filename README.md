@@ -1,6 +1,15 @@
-A# 🚀 Setting up and Running YOLOv8 using FastAPI --fastapi_yolo
+🚀 ** YOLOv8 & FastAPI Object Detection !**
 
-Ensure you have all the prerequisites and follow the instructions below to set up and run fastapi_yolo.
+This repository bridges the power of YOLOv8 — a renowned real-time object detection model — with the agility of FastAPI, a contemporary web framework known for its stellar performance in building APIs. Beyond just a model and a framework, we've integrated Docker for seamless building, shipping, and running of distributed applications.
+
+One of the key features of this project is its capability to handle documents. We've developed a mechanism where tables within documents are meticulously tagged. Post tagging, these tables undergo Optical Character Recognition (OCR) to extract and display their content, ensuring precise data retrieval.
+
+Leverage this repository as a solid starting point for object detection ventures or simply to understand the integration of these cutting-edge technologies.
+
+
+
+## 🚀Setting up and Running YOLOv8 using FastAPI 
+Ensure to have all the prerequisites and follow the instructions below to set up and run fastapi_yolo.
 
 ## 📋 Prerequisites
 
@@ -14,7 +23,7 @@ Ensure you have all the prerequisites and follow the instructions below to set u
 
 1. **Clone the Repository**: 
    
-   If the project is stored in a git repository, start by cloning it:
+    The project is stored in a git repository, start by cloning it:
    ```bash
    git clone MittalMonika/YOLOv8_fastapi && cd YOLOv8_fastapi
    ```
@@ -28,27 +37,23 @@ Ensure you have all the prerequisites and follow the instructions below to set u
 
 3. **Accessing the Application**: 
 
-   Once the services are up and running, you can access the application at:
-   [Link for fastapi webpage](http://127.0.0.1:8080/docs#/default/process_pdf_process_pdf__post)
+   Once the services are up and running, we can access the application at:
+   [ Fastapi webpage](http://127.0.0.1:8080/docs#/default/process_pdf_process_pdf__post)
    
 
 4. **Stopping the Services**: 
 
-   When you're done, you can stop the services by pressing `CTRL + C` in the terminal. Alternatively, if you started the services in detached mode (`docker-compose up -d`), you can stop them with:
+   When we are done, we can stop the services by pressing `CTRL + C` in the terminal. Alternatively, if we started the services in detached mode (`docker-compose up -d`), we can stop them with:
    ```bash
    docker-compose down
    ```
 
-## 🖼️ Images
+## 🖼️ Result and webpage
 The output when toggle to application link would be 
-```markdown
-![Application webpabe:](https://raw.githubusercontent.com/MittalMonika/YOLOv8_fastapi/blob/main/Images/api1.png)
-```
-```markdown
-![Application result webpabe:](./Images/ap2.png)
-```
-```markdown
+
+![Application webpage](./Images/api1.png)
+![Application webpage](./Images/ap2.png)
 ![Document tagged:](./Images/document.png)
-```
+
 
 
