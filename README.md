@@ -1,10 +1,9 @@
 🚀 ** YOLOv8 & FastAPI Object Detection !**
+This repository combines the power of YOLOv8, a popular real-time object detection model, with the speed of FastAPI, a modern web framework for building APIs. We've also integrated Docker, which makes it easy to build, deploy, and run distributed applications.
 
-This repository bridges the power of YOLOv8 — a renowned real-time object detection model — with the agility of FastAPI, a contemporary web framework known for its stellar performance in building APIs. Beyond just a model and a framework, we've integrated Docker for seamless building, shipping, and running of distributed applications.
+One of the key features of this project is its ability to handle documents. We've developed a way to automatically tag tables in documents. Once tagged, the tables are processed using Optical Character Recognition (OCR) to extract and display their content. This ensures that data can be retrieved accurately.
 
-One of the key features of this project is its capability to handle documents. We've developed a mechanism where tables within documents are meticulously tagged. Post tagging, these tables undergo Optical Character Recognition (OCR) to extract and display their content, ensuring precise data retrieval.
 
-Leverage this repository as a solid starting point for object detection ventures or simply to understand the integration of these cutting-edge technologies.
 
 
 
